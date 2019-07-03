@@ -1,7 +1,7 @@
-var express = rerqure ('express');
+var express = require ('express');
 var app = express();
 
-var PORT = proces.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 
 app.get('/',function(req,res){
     res.send ('hello shawn')
